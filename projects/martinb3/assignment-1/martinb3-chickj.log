@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2016.3.18)  15 JAN 2018 14:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2016.3.18)  15 JAN 2018 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,7 +283,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 \tf@toc=\write3
 \openout3 = `martinb3-chickj.toc'.
 
- [1
+
+Overfull \hbox (2.40788pt too wide) in paragraph at lines 20--21
+\OT1/ptm/m/n/12 cerned with pre-serv-ing some-thing re-sem-bling fru-gal-ity in
+ a hope-lessly con-sumerist
+ []
+
+[1
 
 ] [2] [3]
 
@@ -303,10 +309,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  571 strings out of 495064
  6328 string characters out of 3182224
- 55462 words of memory out of 3000000
+ 54462 words of memory out of 3000000
  3805 multiletter control sequences out of 15000+200000
  8465 words of font info for 25 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 23i,6n,19p,1006b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,6n,19p,1011b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on martinb3-chickj.dvi (4 pages, 11288 bytes).
+Output written on martinb3-chickj.dvi (4 pages, 11248 bytes).
