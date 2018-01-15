@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2016.3.18)  15 JAN 2018 14:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=latex 2016.3.18)  15 JAN 2018 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -287,10 +287,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 
 ] [2] [3]
 
-LaTeX Warning: Citation `bookhuff' on page 4 undefined on input line 49.
+LaTeX Warning: Citation `bookhuff' on page 4 undefined on input line 46.
 
 
-LaTeX Warning: Citation `booknbc' on page 4 undefined on input line 51.
+LaTeX Warning: Citation `booknbc' on page 4 undefined on input line 47.
 
 (./martinb3-chickj.bbl) [4] (./martinb3-chickj.aux)
 
@@ -303,10 +303,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  571 strings out of 495064
  6328 string characters out of 3182224
- 57462 words of memory out of 3000000
+ 55462 words of memory out of 3000000
  3805 multiletter control sequences out of 15000+200000
  8465 words of font info for 25 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  23i,6n,19p,1006b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on martinb3-chickj.dvi (4 pages, 11448 bytes).
+Output written on martinb3-chickj.dvi (4 pages, 11288 bytes).
