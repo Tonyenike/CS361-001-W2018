@@ -1,6 +1,6 @@
 # this is a comment
 
-TARGET=martinb3-chickj
+TARGET=the_memo-SRP
 
 
 default: pdf
@@ -12,7 +12,7 @@ dvi: ${TARGET}.tex
 #	run latex twice to get references correct
 	latex ${TARGET}.tex
 #	you can also have a bibtex line here
-	bibtex $(TARGET)
+#	bibtex $(TARGET)
 	latex $(TARGET).tex
 
 ps: dvi
