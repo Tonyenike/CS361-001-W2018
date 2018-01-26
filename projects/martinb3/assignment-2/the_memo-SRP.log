@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  25 JAN 2018 18:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  25 JAN 2018 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,12 +429,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -457,7 +457,7 @@ Here is how much of TeX's memory you used:
 se/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on the_memo-SRP.pdf (5 pages, 57628 bytes).
+Output written on the_memo-SRP.pdf (5 pages, 57404 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
