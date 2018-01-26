@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  25 JAN 2018 18:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  25 JAN 2018 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -386,9 +386,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 23.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
 [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
 <the_memo_diagram_shit.png, id=9, 664.73344pt x 335.75438pt>
 File: the_memo_diagram_shit.png Graphic file (type png)
 
@@ -400,7 +409,42 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 36--37
 [][] 
  []
 
-[2 <./the_memo_diagram_shit.png>] [3] [4] [5] (./the_memo-SRP.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+[2 <./the_memo_diagram_shit.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[4] [5] (./the_memo-SRP.aux) ) 
 Here is how much of TeX's memory you used:
  1862 strings out of 495063
  25542 string characters out of 3182201
@@ -408,13 +452,12 @@ Here is how much of TeX's memory you used:
  5020 multiletter control sequences out of 15000+200000
  15803 words of font info for 37 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,6n,23p,1446b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share
-/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmr8a.pfb>
-Output written on the_memo-SRP.pdf (5 pages, 57549 bytes).
+ 38i,6n,23p,1444b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on the_memo-SRP.pdf (5 pages, 57628 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
