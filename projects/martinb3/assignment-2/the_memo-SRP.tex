@@ -65,8 +65,17 @@ The second intended use case of our product is to be a memorization tool. Our pr
 \par
 The third use case for our product is to provide memorization tools to help them form “memorization techniques” to memorize said strings of letters. For example, from a generated scramble, a letter string might be BYOGT - and the program would generate a silly string of words or phrase, such as “Bring Your Own Garbage Tomorrow”. The computer would help the user come up with phrases of strings to help them memorize a random jumble of letters easier. This is the least dynamically functional program of the the three, and we believe the most niche use case of the three as well - we don’t anticipate nearly as many users to have a tough time thinking of word phrases to memorize solving algorithms. \\
 
+\par There are numerous potential errors in the program that can break our algorithm:
 
-
+\begin{enumerate}
+\item The user enters invalid letters that are not on the Rubik’s Cube (for example, Z does not exist on the cube).
+\item Cube scrambles result in unsolvable cubes (for example, a red square is duplicated or a square is moved into a position that can no longer be solved).
+\item Cube solutions are incorrect or invalid; the algorithm made a mistake (which is easy to happen with so many steps.
+\item User interface is not compatible due to browser; specifically, internet explorer (the least support for browser functionality), or is used on a phone. As an addendum, the webpage must be dynamic in order to fit all types of viewports.
+\item HTML, CSS, or JS files are hidden, inaccessible, or forbidden (due to permissions), resulting in a loss of functionality, styling, or content from their respective functionalities.
+\item Variable functionality across different browsers, spontaneous or unpredictable program behavior due to different interfaces.
+\item While not necessarily an error, it can be infeasible for the algorithm to take too long to find a solution to a given scrambled cube.
+\end{enumerate}
 
 
 \section{Planning}
