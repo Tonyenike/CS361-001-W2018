@@ -12,7 +12,7 @@ dvi: ${TARGET}.tex
 #	run latex twice to get references correct
 	pdflatex ${TARGET}.tex
 #	you can also have a bibtex line here
-#	bibtex $(TARGET)
+	bibtex $(TARGET)
 	pdflatex $(TARGET).tex
 
 ps: dvi
