@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  29 JAN 2018 18:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  29 JAN 2018 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,37 +280,69 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (./the_memo-SRP.aux)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/02/03 v3.3-65 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count88
+)
+\c@KVtest=\count89
+\sf@farskip=\skip43
+\sf@captopadj=\dimen112
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count90
+\c@subfigure@save=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@subtable@save=\count94
+\c@lotdepth=\count95
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
+(./the_memo-SRP.aux)
 \openout1 = `the_memo-SRP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 19.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
+\scratchcounter=\count96
+\scratchdimen=\dimen113
 \scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
+\nofMPsegments=\count97
+\nofMParguments=\count98
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen114
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
 \everyMPtoPDFconversion=\toks18
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -360,12 +392,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 18.
+(Font)              <14.4> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 20.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 
 (./the_memo-SRP.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -374,27 +409,27 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 \tf@toc=\write3
 \openout3 = `the_memo-SRP.toc'.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 25.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 23.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 23.
+(Font)              <6> on input line 25.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
@@ -402,56 +437,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 File: the_memo_diagram_shit.png Graphic file (type png)
 
 <use the_memo_diagram_shit.png>
-Package pdftex.def Info: the_memo_diagram_shit.png used on input line 36.
+Package pdftex.def Info: the_memo_diagram_shit.png used on input line 38.
 (pdftex.def)             Requested size: 390.0pt x 196.98676pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 36--37
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 38--39
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 [2 <./the_memo_diagram_shit.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
 [4] [5]
-Overfull \hbox (8.45483pt too wide) in paragraph at lines 76--77
+Overfull \hbox (8.45483pt too wide) in paragraph at lines 78--79
 []\OT1/ptm/m/n/12 Variable func-tion-al-ity across dif-fer-ent browsers, spon-t
 a-neous or un-pre-dictable
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
@@ -460,25 +495,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[6] <rubiks1.PNG, id=25, 186.6975pt x 144.54pt>
+File: rubiks1.PNG Graphic file (type png)
+ <use rubiks1.PNG>
+Package pdftex.def Info: rubiks1.PNG used on input line 89.
+(pdftex.def)             Requested size: 155.99762pt x 120.77757pt.
+
+<rubiks2.PNG, id=27, 362.10281pt x 278.54062pt>
+File: rubiks2.PNG Graphic file (type png)
+ <use rubiks2.PNG>
+Package pdftex.def Info: rubiks2.PNG used on input line 91.
+(pdftex.def)             Requested size: 155.99762pt x 119.99963pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+[7 <./rubiks1.PNG> <./rubiks2.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-LaTeX Warning: Citation `rubtut' on page 7 undefined on input line 98.
+LaTeX Warning: Citation `rubtut' on page 8 undefined on input line 110.
 
-(./the_memo-SRP.bbl) [7] (./the_memo-SRP.aux)
+(./the_memo-SRP.bbl) [8] (./the_memo-SRP.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -487,22 +538,22 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 1869 strings out of 495063
- 25617 string characters out of 3182201
- 80972 words of memory out of 3000000
- 5022 multiletter control sequences out of 15000+200000
+ 3049 strings out of 495063
+ 46638 string characters out of 3182201
+ 104081 words of memory out of 3000000
+ 6189 multiletter control sequences out of 15000+200000
  17487 words of font info for 39 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,6n,23p,1671b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,6n,42p,1694b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on the_memo-SRP.pdf (7 pages, 73441 bytes).
+Output written on the_memo-SRP.pdf (8 pages, 188218 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
