@@ -4,6 +4,7 @@ TARGET=the_memo-SRP
 
 
 default: pdf
+all: pdf
 
 bib: bib
 	bibtex ${TARGET}
