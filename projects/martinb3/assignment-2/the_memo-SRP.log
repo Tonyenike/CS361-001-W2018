@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  29 JAN 2018 20:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  29 JAN 2018 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -495,41 +495,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-[6] <rubiks1.PNG, id=25, 186.6975pt x 144.54pt>
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+[7] <rubiks1.PNG, id=29, 186.6975pt x 144.54pt>
 File: rubiks1.PNG Graphic file (type png)
  <use rubiks1.PNG>
-Package pdftex.def Info: rubiks1.PNG used on input line 89.
+Package pdftex.def Info: rubiks1.PNG used on input line 129.
 (pdftex.def)             Requested size: 155.99762pt x 120.77757pt.
 
-<rubiks2.PNG, id=27, 362.10281pt x 278.54062pt>
+<rubiks2.PNG, id=31, 362.10281pt x 278.54062pt>
 File: rubiks2.PNG Graphic file (type png)
  <use rubiks2.PNG>
-Package pdftex.def Info: rubiks2.PNG used on input line 91.
+Package pdftex.def Info: rubiks2.PNG used on input line 131.
 (pdftex.def)             Requested size: 155.99762pt x 119.99963pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-[7 <./rubiks1.PNG> <./rubiks2.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+ [8 <./rubiks1.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+[9 <./rubiks2.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 
-LaTeX Warning: Citation `rubtut' on page 8 undefined on input line 110.
+LaTeX Warning: Citation `rubtut' on page 10 undefined on input line 158.
 
-(./the_memo-SRP.bbl) [8] (./the_memo-SRP.aux)
+(./the_memo-SRP.bbl) [10] (./the_memo-SRP.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -550,10 +560,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on the_memo-SRP.pdf (8 pages, 188218 bytes).
+Output written on the_memo-SRP.pdf (10 pages, 191750 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
