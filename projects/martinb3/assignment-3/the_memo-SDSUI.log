@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.9.13)  5 FEB 2018 14:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.9.13)  5 FEB 2018 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,61 +424,60 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
-
-<tutorial.PNG, id=1, 1028.34187pt x 564.60938pt>
-File: tutorial.PNG Graphic file (type png)
- <use tutorial.PNG>
-Package pdftex.def Info: tutorial.PNG used on input line 35.
-(pdftex.def)             Requested size: 390.0pt x 214.13164pt.
  [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<cubepage.PNG, id=11, 1014.79124pt x 546.54187pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+
+<tutorial.PNG, id=9, 1028.34187pt x 564.60938pt>
+File: tutorial.PNG Graphic file (type png)
+ <use tutorial.PNG>
+Package pdftex.def Info: tutorial.PNG used on input line 36.
+(pdftex.def)             Requested size: 390.0pt x 214.13164pt.
+ [2 <./tutorial.PNG>] <cubepage.PNG, id=15, 1014.79124pt x 546.54187pt>
 File: cubepage.PNG Graphic file (type png)
  <use cubepage.PNG>
-Package pdftex.def Info: cubepage.PNG used on input line 37.
+Package pdftex.def Info: cubepage.PNG used on input line 40.
 (pdftex.def)             Requested size: 390.0pt x 210.03981pt.
 
-<lettermem.PNG, id=12, 1028.34187pt x 560.0925pt>
+<lettermem.PNG, id=16, 1028.34187pt x 560.0925pt>
 File: lettermem.PNG Graphic file (type png)
  <use lettermem.PNG>
-Package pdftex.def Info: lettermem.PNG used on input line 39.
+Package pdftex.def Info: lettermem.PNG used on input line 45.
 (pdftex.def)             Requested size: 390.0pt x 212.41858pt.
- [2 <./tutorial.PNG> <./cubepage.PNG>] <diagram.PNG, id=18, 1606.0pt x 946.5362
-5pt>
+ [3 <./cubepage.PNG>] <diagram.PNG, id=21, 1606.0pt x 946.53625pt>
 File: diagram.PNG Graphic file (type png)
-
-<use diagram.PNG>
-Package pdftex.def Info: diagram.PNG used on input line 44.
+ <use diagram.PNG>
+Package pdftex.def Info: diagram.PNG used on input line 52.
 (pdftex.def)             Requested size: 390.0pt x 229.85973pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-[3 <./lettermem.PNG> <./diagram.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[4 <./lettermem.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+[5 <./diagram.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[4] (./the_memo-SDSUI.bbl) [5] (./the_memo-SDSUI.aux) ) 
+(./the_memo-SDSUI.bbl) [6] (./the_memo-SDSUI.aux) ) 
 Here is how much of TeX's memory you used:
  3055 strings out of 495063
  46707 string characters out of 3182201
@@ -487,15 +486,15 @@ Here is how much of TeX's memory you used:
  19113 words of font info for 41 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,6n,42p,1052b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on the_memo-SDSUI.pdf (5 pages, 346933 bytes).
+{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on the_memo-SDSUI.pdf (6 pages, 350852 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
