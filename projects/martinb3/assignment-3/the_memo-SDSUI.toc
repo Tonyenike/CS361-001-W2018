@@ -4,5 +4,5 @@
 \contentsline {subsection}{\numberline {2.2}Rubik's Cube practice page}{2}
 \contentsline {subsection}{\numberline {2.3}Letter memorization page}{3}
 \contentsline {section}{\numberline {3}Class Diagrams}{3}
-\contentsline {section}{\numberline {4}Sequence Diagrams}{3}
-\contentsline {section}{\numberline {5}Meeting Report}{3}
+\contentsline {section}{\numberline {4}Sequence Diagrams}{4}
+\contentsline {section}{\numberline {5}Meeting Report}{4}
