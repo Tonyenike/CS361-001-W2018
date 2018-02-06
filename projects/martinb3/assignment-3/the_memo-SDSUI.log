@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  5 FEB 2018 21:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  5 FEB 2018 21:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,26 +417,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `the_memo-SDSUI.toc'.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 25.
 
+Overfull \hbox (101.55907pt too wide) in paragraph at lines 25--26
+\OT1/ptm/m/n/12 LINK TO THE GITHUB REPO AT THE COR-RECT BRANCH: https://github.
+com/Tonyenike/CS361-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 28.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
  [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 
 <tutorial.PNG, id=9, 578.16pt x 1028.34187pt>
 File: tutorial.PNG Graphic file (type png)
  <use tutorial.PNG>
-Package pdftex.def Info: tutorial.PNG used on input line 37.
+Package pdftex.def Info: tutorial.PNG used on input line 40.
 (pdftex.def)             Requested size: 272.99881pt x 485.56459pt.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
@@ -444,20 +454,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 File: cubepage.PNG Graphic file (type png)
 
 <use cubepage.PNG>
-Package pdftex.def Info: cubepage.PNG used on input line 43.
+Package pdftex.def Info: cubepage.PNG used on input line 46.
 (pdftex.def)             Requested size: 390.0pt x 210.03981pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 <lettermem.PNG, id=19, 577.40718pt x 1027.58907pt>
 File: lettermem.PNG Graphic file (type png)
  <use lettermem.PNG>
-Package pdftex.def Info: lettermem.PNG used on input line 49.
+Package pdftex.def Info: lettermem.PNG used on input line 52.
 (pdftex.def)             Requested size: 272.99881pt x 485.86768pt.
  [4 <./cubepage.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
@@ -465,20 +475,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 File: error.PNG Graphic file (type png)
 
 <use error.PNG>
-Package pdftex.def Info: error.PNG used on input line 54.
+Package pdftex.def Info: error.PNG used on input line 57.
 (pdftex.def)             Requested size: 390.0pt x 111.43152pt.
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 54--55
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 57--58
 [][] 
  []
 
 <diagram.PNG, id=29, 1606.0pt x 946.53625pt>
 File: diagram.PNG Graphic file (type png)
  <use diagram.PNG>
-Package pdftex.def Info: diagram.PNG used on input line 58.
+Package pdftex.def Info: diagram.PNG used on input line 61.
 (pdftex.def)             Requested size: 390.0pt x 229.85973pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
@@ -486,13 +496,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 File: tut.PNG Graphic file (type png)
 
 <use tut.PNG>
-Package pdftex.def Info: tut.PNG used on input line 75.
+Package pdftex.def Info: tut.PNG used on input line 78.
 (pdftex.def)             Requested size: 195.0pt x 85.39192pt.
  <sequence.PNG, id=35, 193.47281pt x 569.87906pt>
 File: sequence.PNG Graphic file (type png)
 
 <use sequence.PNG>
-Package pdftex.def Info: sequence.PNG used on input line 77.
+Package pdftex.def Info: sequence.PNG used on input line 80.
 (pdftex.def)             Requested size: 195.0pt x 574.38199pt.
  [7 <./tut.PNG>]
 Overfull \vbox (47.24828pt too high) has occurred while \output is active []
@@ -502,19 +512,14 @@ Overfull \vbox (47.24828pt too high) has occurred while \output is active []
 File: seqdia.PNG Graphic file (type png)
 
 <use seqdia.PNG>
-Package pdftex.def Info: seqdia.PNG used on input line 79.
+Package pdftex.def Info: seqdia.PNG used on input line 82.
 (pdftex.def)             Requested size: 195.0pt x 499.004pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-[9 <./seqdia.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-
+[9 <./seqdia.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
@@ -529,8 +534,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-[10]
+
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
@@ -548,7 +558,7 @@ ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on the_memo-SDSUI.pdf (11 pages, 522499 bytes).
+Output written on the_memo-SDSUI.pdf (11 pages, 522657 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
