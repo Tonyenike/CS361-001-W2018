@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  5 FEB 2018 20:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.16)  5 FEB 2018 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -477,17 +477,20 @@ File: diagram.PNG Graphic file (type png)
  <use diagram.PNG>
 Package pdftex.def Info: diagram.PNG used on input line 54.
 (pdftex.def)             Requested size: 390.0pt x 229.85973pt.
- [4 <./lettermem.PNG> <./error.PNG>] <tut.PNG, id=28, 448.67625pt x 196.48407pt
->
+ [4 <./lettermem.PNG> <./error.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+<tut.PNG, id=28, 448.67625pt x 196.48407pt>
 File: tut.PNG Graphic file (type png)
  <use tut.PNG>
 Package pdftex.def Info: tut.PNG used on input line 71.
 (pdftex.def)             Requested size: 195.0pt x 85.39192pt.
-
-[5 <./diagram.PNG>] <sequence.PNG, id=32, 193.47281pt x 569.87906pt>
+ [5 <./diagram.PNG>]
+<sequence.PNG, id=32, 193.47281pt x 569.87906pt>
 File: sequence.PNG Graphic file (type png)
-
-<use sequence.PNG>
+ <use sequence.PNG>
 Package pdftex.def Info: sequence.PNG used on input line 73.
 (pdftex.def)             Requested size: 195.0pt x 574.38199pt.
  [6 <./tut.PNG>]
@@ -544,7 +547,7 @@ ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on the_memo-SDSUI.pdf (10 pages, 469998 bytes).
+Output written on the_memo-SDSUI.pdf (10 pages, 470086 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
