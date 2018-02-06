@@ -4,5 +4,8 @@
 \contentsline {subsection}{\numberline {2.2}Rubik's Cube practice page}{3}
 \contentsline {subsection}{\numberline {2.3}Letter memorization page}{4}
 \contentsline {section}{\numberline {3}Class Diagrams}{5}
-\contentsline {section}{\numberline {4}Sequence Diagrams}{6}
-\contentsline {section}{\numberline {5}Meeting Report}{7}
+\contentsline {section}{\numberline {4}Sequence Diagrams}{5}
+\contentsline {subsection}{\numberline {4.1}Case: Tutorial Page}{5}
+\contentsline {subsection}{\numberline {4.2}Case: Rubik's Cube Practice Tool}{6}
+\contentsline {subsection}{\numberline {4.3}Case: Letter Generation}{7}
+\contentsline {section}{\numberline {5}Meeting Report}{8}
