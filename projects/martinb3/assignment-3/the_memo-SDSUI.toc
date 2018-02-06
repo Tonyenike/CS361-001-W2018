@@ -1,11 +1,11 @@
 \contentsline {section}{\numberline {1}Contributors and ONIDs}{1}
 \contentsline {section}{\numberline {2}User Interface Prototypes}{2}
-\contentsline {subsection}{\numberline {2.1}Tutorials Page}{2}
-\contentsline {subsection}{\numberline {2.2}Rubik's Cube practice page}{3}
-\contentsline {subsection}{\numberline {2.3}Letter memorization page}{4}
-\contentsline {section}{\numberline {3}Class Diagrams}{5}
-\contentsline {section}{\numberline {4}Sequence Diagrams}{6}
-\contentsline {subsection}{\numberline {4.1}Case: Tutorial Page}{6}
-\contentsline {subsection}{\numberline {4.2}Case: Rubik's Cube Practice Tool}{7}
-\contentsline {subsection}{\numberline {4.3}Case: Letter Generation}{8}
-\contentsline {section}{\numberline {5}Meeting Report}{9}
+\contentsline {subsection}{\numberline {2.1}Tutorials Page}{3}
+\contentsline {subsection}{\numberline {2.2}Rubik's Cube practice page}{4}
+\contentsline {subsection}{\numberline {2.3}Letter memorization page}{5}
+\contentsline {section}{\numberline {3}Class Diagrams}{6}
+\contentsline {section}{\numberline {4}Sequence Diagrams}{7}
+\contentsline {subsection}{\numberline {4.1}Case: Tutorial Page}{7}
+\contentsline {subsection}{\numberline {4.2}Case: Rubik's Cube Practice Tool}{8}
+\contentsline {subsection}{\numberline {4.3}Case: Letter Generation}{9}
+\contentsline {section}{\numberline {5}Meeting Report}{10}
