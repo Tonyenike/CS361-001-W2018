@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: the_memo-DIS.aux
 I couldn't open database file myref.bib
----line 4 of file the_memo-DIS.aux
+---line 8 of file the_memo-DIS.aux
  : \bibdata{myref
  :               }
 I'm skipping whatever remains of this command
