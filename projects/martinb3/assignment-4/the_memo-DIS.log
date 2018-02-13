@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  12 FEB 2018 22:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  12 FEB 2018 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -313,7 +313,7 @@ Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
 \sf@top=\skip46
 \sf@bottom=\skip47
 )
-No file the_memo-DIS.aux.
+(./the_memo-DIS.aux)
 \openout1 = `the_memo-DIS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -329,10 +329,9 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 19.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen113
@@ -403,41 +402,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 
-No file the_memo-DIS.toc.
+(./the_memo-DIS.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `the_memo-DIS.toc'.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.25 ...ub.com/Tonyenike/CS361-001-W2018/tree/the_
-                                                  memo-assignment-4/projects...
-
-? 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.26 
-     
-? 
 
 Overfull \hbox (101.55907pt too wide) in paragraph at lines 25--26
 \OT1/ptm/m/n/12 LINK TO THE GITHUB REPO AT THE COR-RECT BRANCH: https://github.
 com/Tonyenike/CS361-
- []
-
-
-Overfull \hbox (1.31775pt too wide) in paragraph at lines 25--26
-\OT1/ptm/m/n/12 001-W2018/tree/the$[]\OML/cmm/m/it/12 emo \OMS/cmsy/m/n/12 ^^@ 
-\OML/cmm/m/it/12 assignment \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 4\OML/cmm/m/it
-/12 =projects=martinb\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 =assignment \OMS/cmsy/m/
-n/12 ^^@
  []
 
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 28.
@@ -446,6 +421,12 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 28.
 
 <diagram.PNG, id=1, 1606.0pt x 946.53625pt>
 File: diagram.PNG Graphic file (type png)
@@ -499,36 +480,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
 
 LaTeX Warning: Citation `rubtut' on page 5 undefined on input line 73.
 
-No file the_memo-DIS.bbl.
-[5] (./the_memo-DIS.aux)
+(./the_memo-DIS.bbl) [5] (./the_memo-DIS.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3028 strings out of 495063
- 46269 string characters out of 3182201
+ 3038 strings out of 495063
+ 46418 string characters out of 3182201
  105081 words of memory out of 3000000
- 6179 multiletter control sequences out of 15000+200000
- 15803 words of font info for 37 fonts, out of 3000000 for 9000
+ 6181 multiletter control sequences out of 15000+200000
+ 17487 words of font info for 39 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,6n,42p,1789b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a
-.pfb>
-Output written on the_memo-DIS.pdf (5 pages, 232061 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on the_memo-DIS.pdf (5 pages, 215646 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
