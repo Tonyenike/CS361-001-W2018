@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {1}Contributors and ONIDs}{1}
 \contentsline {section}{\numberline {2}User Stories}{2}
-\contentsline {section}{\numberline {3}Corresponding Tasks}{2}
+\contentsline {section}{\numberline {3}Corresponding Tasks}{3}
 \contentsline {section}{\numberline {4}UML Sequence Diagram/Spike}{5}
 \contentsline {subsection}{\numberline {4.1}404 Diagram}{5}
 \contentsline {subsection}{\numberline {4.2}Tutorial Diagram}{6}
