@@ -64,6 +64,200 @@ LINK TO THE GITHUB REPO AT THE CORRECT BRANCH: https://github.com/Tonyenike/CS36
 
 \par \textbf{*Note}: If it were not clear at this point, our “customer” is our very own Keenan. As it happens, Keenan is the only qualified customer that any of us know for a project such as this one, as he is actually a blindfolded cuber, so he knows what the application should look like and which actions it should perform; he is the man with the vision. As such, the communication between customer and developer is less of a rhetorical dialog and more of a socratic discussion. \\
 
+\section{Tests}
+
+\par We currently have 1 unit test for a major piece of our system that is also a user story: the rotateCube method. This method is what rotates the cube object. The second unit test (called unit_test2) tests the functionality of the rotateCube method. \\
+
+\par At the moment, all client-side functionality (the in-browser session) does not exist. We have back-end code and client-side pages, but we do not have the engine linked up to the webpages yet. This means that there is nothing to test on the client side yet. The testing is completed through test.js, which tests exclusively our back-end code. \\
+
+\par One test that is not yet implemented is the test that checks for the checkSolution user story. There is no validation step to see if the user is actually correct or not based on input and there is no testing on this method yet. Since this method does not exist, we cannot test it. To create a unit test though, we would do the following: \\
+
+\begin{enumerate}
+\item Generate a psuedo-scrambled cube (i.e., we already know the solution to this cube)
+\item The test would enter multiple incorrect answers as well as the correct answer.
+\item Check that the function returned false for all incorrect solutions and true for the correct solution.
+\item If the answer was false, the test would also check to see that a correct solution was given as a wrapper object as well (to give the user the correct answer after being incorrect)
+
+\par Some of the user stories cannot be tested through unit testing means. The View Tutorials story, for example, cannot be tested through conventional means as it is a hyperlink to another website, which a js unit test cannot validate. \\
+
+\begin{verbatim}
+
+/*
+ *  test.js
+ *
+ *
+ * Write any unit tests here to test our backend code!
+ * I have written one as a quick example. Type
+ * 'node test.js' to run the tests.
+ *
+ */
+
+var cubeEngine = require('./engine.js'); // This lets us use the functions that we have built on the back-end.
+
+/*
+ *  Styling points for unit testing!
+ *  Only works on *NIX operating systems though.
+ *  Run this on the ENGR server for best results.
+ *
+ */
+
+Reset = "\x1b[0m"
+Bright = "\x1b[1m"
+Dim = "\x1b[2m"
+Underscore = "\x1b[4m"
+Blink = "\x1b[5m"
+Reverse = "\x1b[7m"
+Hidden = "\x1b[8m"
+ 
+FgBlack = "\x1b[30m"
+FgRed = "\x1b[31m"
+FgGreen = "\x1b[32m"
+FgYellow = "\x1b[33m"
+FgBlue = "\x1b[34m"
+FgMagenta = "\x1b[35m"
+FgCyan = "\x1b[36m"
+FgWhite = "\x1b[37m"
+ 
+BgBlack = "\x1b[40m"
+BgRed = "\x1b[41m"
+BgGreen = "\x1b[42m"
+BgYellow = "\x1b[43m"
+BgBlue = "\x1b[44m"
+BgMagenta = "\x1b[45m"
+BgCyan = "\x1b[46m"
+BgWhite = "\x1b[47m"
+
+
+function unit_test1()
+{
+	// This test checks to see if the moveFace function is working
+	// as expected.
+	var cube = new cubeEngine(); //The cube variable is our cube object.
+
+	console.log("");	
+	console.log(FgCyan +  "=== Beginning Unit test 1 ===" + Reset);
+	console.log("-----------------------------");
+
+	cube.moveFace("top", "bottom");
+	console.log("=== setting the bottom face to be equal to the top face");
+
+	var topface = cube.getFace("top");
+	var botface = cube.getFace("bottom");
+
+	var midbotcol = botface.getSquare("mm").getColor();
+	var midtopcol = topface.getSquare("mm").getColor();
+
+
+	console.log("=== bottom square is now:", midbotcol);
+	console.log("=== top square is now:", midtopcol);
+
+	var stat;
+	//Assertion
+	if(midbotcol === midtopcol)
+	{
+		stat = FgGreen + "SUCCESS" + Reset;
+	}
+	else
+		stat = FgRed + "FAILURE" + Reset;
+	console.log(FgYellow + "=== TEST STATUS:" +  Reset, stat);
+	console.log("");
+}
+
+function unit_test2()
+{
+	// This test checks to see if the rotateCube function is working
+	// as expected. This test uses the "up" direction.
+	var cube = new cubeEngine(); //The cube variable is our cube object.
+	
+	console.log("");	
+	console.log(FgCyan + "=== Beginning Unit test 2 ===" + Reset);
+	console.log("-----------------------------");
+
+
+	var frontface = cube.getFace("front");
+	var midfrontcol = frontface.getSquare("mm").getColor();
+
+	console.log("=== front face is color:", midfrontcol);
+	
+
+	cube.rotateCube("up");
+	console.log("=== rotating the cube up");
+	
+	var topface = cube.getFace("top");
+	var midtopcol = topface.getSquare("mm").getColor();
+	
+	console.log("=== top face is color:", midtopcol);
+
+	var stat;
+	//Assertion
+	if(midtopcol === midfrontcol)
+	{
+		stat = FgGreen + "SUCCESS" + Reset;
+	}
+	else
+		stat = FgRed + "FAILURE" + Reset;
+	console.log(FgYellow + "=== TEST STATUS:" + Reset, stat);
+	console.log("");
+}
+
+function unit_test3()
+{
+	  //This test will check to 
+  //see that the getFace function is working properly
+        //And that default colors are correct.
+  
+        var cube = new cubeEngine(); //The cube variable is our cube object.
+
+        console.log("");
+        console.log(FgCyan + "=== Beginning Unit test 3 ===" + Reset);
+        console.log("-----------------------------");
+
+        var backface = cube.getFace("back");
+        var leftface = cube.getFace("left");
+
+        var col = backface.getSquare("mm").getColor();
+        var othercol = leftface.getSquare("mm").getColor();
+
+        console.log("=== color of back face:", col);
+        console.log("=== color of left face:", othercol);
+
+        console.log("=== default coloring scheme is:");
+        console.log("=== front : red");
+        console.log("=== back  : orange");
+        console.log("=== left  : green");
+        console.log("=== right : blue");
+        console.log("=== top   : white");
+        console.log("=== bottom: yellow");
+
+
+        //Assertions
+        if(othercol !== col &&
+           col === "orange" &&
+           othercol === "green")
+        {
+                stat = FgGreen + "SUCCESS" + Reset;
+        }
+        else
+                stat = FgRed + "FAILURE" + Reset;
+        console.log(FgYellow + "=== TEST STATUS:" + Reset, stat);
+        console.log("");
+}
+
+console.log("");
+console.log(FgCyan + "=== Beginning Unit Testing ===" + Reset);
+console.log("------------------------------");
+
+unit_test1();
+unit_test2();
+unit_test3();
+
+console.log("");
+console.log(FgCyan + "=== End of Testing ===" + Reset);
+console.log("----------------------");
+console.log("");
+
+\end{verbatim}
+
 \section{Meeting Report}
 
 \par This week is week eight. On this week we have met three times on campus. Including three times in library and one meeting after class. Our customer has met us in three meetings. We think his requirements are reasonable for this project. We basically implement his requirements in our project. \\
