@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  5 MAR 2018 23:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2016.3.18)  5 MAR 2018 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -313,7 +313,7 @@ Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
 \sf@top=\skip46
 \sf@bottom=\skip47
 )
-No file the_memo-FIS.aux.
+(./the_memo-FIS.aux)
 \openout1 = `the_memo-FIS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -329,10 +329,9 @@ LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 19.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-)
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+) (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen113
@@ -403,7 +402,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 
-No file the_memo-FIS.toc.
+(./the_memo-FIS.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `the_memo-FIS.toc'.
 
@@ -430,8 +432,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
 [1
 
 {/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
@@ -444,12 +444,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -464,43 +464,176 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 84.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [5]
+Overfull \hbox (401.99966pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 var cubeEngine = require('./engine.js'); // This lets us use 
+the functions that we have built on the back-end.[] 
+ []
+
+[6]
+Overfull \hbox (56.39981pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 // This test checks to see if the moveFace function is workin
+g[] 
+ []
+
+
+Overfull \hbox (99.5998pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 var cube = new cubeEngine(); //The cube variable is our cube 
+object.[] 
+ []
+
+
+Overfull \hbox (63.59981pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 console.log(FgCyan +  "=== Beginning Unit test 1 ===" + Reset
+);[] 
+ []
+
+
+Overfull \hbox (121.19978pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 console.log("=== setting the bottom face to be equal to the t
+op face");[] 
+ []
+
+
+Overfull \hbox (27.59982pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 console.log(FgYellow + "=== TEST STATUS:" +  Reset, stat);[] 
+
+ []
+
+[7]
+Overfull \hbox (70.7998pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 // This test checks to see if the rotateCube function is work
+ing[] 
+ []
+
+
+Overfull \hbox (99.5998pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 var cube = new cubeEngine(); //The cube variable is our cube 
+object.[] 
+ []
+
+
+Overfull \hbox (56.39981pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 console.log(FgCyan + "=== Beginning Unit test 2 ===" + Reset)
+;[] 
+ []
+
+
+Overfull \hbox (5.99983pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 var midfrontcol = frontface.getSquare("mm").getColor();[] 
+ []
+
+
+Overfull \hbox (20.39983pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 console.log(FgYellow + "=== TEST STATUS:" + Reset, stat);[] 
+ []
+
+[8]
+Overfull \hbox (157.19977pt too wide) in paragraph at lines 260--260
+[]        \OT1/pcr/m/n/12 var cube = new cubeEngine(); //The cube variable is o
+ur cube object.[] 
+ []
+
+
+Overfull \hbox (113.99979pt too wide) in paragraph at lines 260--260
+[]        \OT1/pcr/m/n/12 console.log(FgCyan + "=== Beginning Unit test 3 ===" 
++ Reset);[] 
+ []
+
+
+Overfull \hbox (34.79982pt too wide) in paragraph at lines 260--260
+[]        \OT1/pcr/m/n/12 var othercol = leftface.getSquare("mm").getColor();[]
+ 
+ []
+
+
+Overfull \hbox (20.39983pt too wide) in paragraph at lines 260--260
+[]        \OT1/pcr/m/n/12 console.log("=== color of left face:", othercol);[] 
+ []
+
+
+Overfull \hbox (5.99983pt too wide) in paragraph at lines 260--260
+[]        \OT1/pcr/m/n/12 console.log("=== default coloring scheme is:");[] 
+ []
+
+[9]
+Overfull \hbox (77.9998pt too wide) in paragraph at lines 260--260
+[]        \OT1/pcr/m/n/12 console.log(FgYellow + "=== TEST STATUS:" + Reset, st
+at);[] 
+ []
+
+
+Overfull \hbox (63.59981pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 console.log(FgCyan + "=== Beginning Unit Testing ===" + Reset
+);[] 
+ []
+
+
+Overfull \hbox (5.99983pt too wide) in paragraph at lines 260--260
+[]\OT1/pcr/m/n/12 console.log(FgCyan + "=== End of Testing ===" + Reset);[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-[5] [6] (./the_memo-FIS.aux) ) 
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+[11] (./the_memo-FIS.aux) ) 
 Here is how much of TeX's memory you used:
- 3021 strings out of 495063
- 46197 string characters out of 3182201
+ 3060 strings out of 495063
+ 46764 string characters out of 3182201
  103081 words of memory out of 3000000
- 6175 multiletter control sequences out of 15000+200000
- 15803 words of font info for 37 fonts, out of 3000000 for 9000
+ 6205 multiletter control sequences out of 15000+200000
+ 16318 words of font info for 39 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,6n,42p,1239b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ba
-se/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on the_memo-FIS.pdf (6 pages, 49797 bytes).
+ 44i,6n,42p,1239b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/
+8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on the_memo-FIS.pdf (11 pages, 72871 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
