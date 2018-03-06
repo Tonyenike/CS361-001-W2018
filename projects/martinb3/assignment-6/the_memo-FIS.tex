@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{cite}
+\usepackage[utf8]{inputenc}
+\usepackage{subfig}
+\usepackage{caption}
+%this is a comment
+\title{The Memo}
+\author{Jesse Chick\\
+\and Benjamin Martin\\
+\and Keenan Johnson\\
+\and Nickoli Londura\\
+\and Jiaji Sun}
+
+
+
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Contributors and ONIDs}
+\par
+LINK TO THE GITHUB REPO AT THE CORRECT BRANCH: https://github.com/Tonyenike/CS361-001-W2018/tree/the\_memo-assignment-6/projects/martinb3/assignment-6
+
+\begin{itemize}
+	\item Jesse Chick $\sim$ chickj
+	\item Benjamin Martin $\sim$ martinb3
+	\item Keenan Johnson $\sim$ johnsoke
+	\item Nickoli Londura $\sim$ londuran
+	\item Jiaji Sun $\sim$ sunji
+\end{itemize}
+
+\section{Product Release}
+
+\par Currently, we have no place where we are serving our website. The link to access our product GitHub is here: https://github.com/Tonyenike/CS-361-Group-Project. Clone the repository and follow the instructions included in the instructions.txt file. \\
+
+\section{User Stories}
+
+\begin{enumerate}
+	\item \textbf{View Tutorials} implemented, not tested. This is incomplete, the links for the actual tutorials must be coded into the website. Coded by Ben/Nickoli. Took roughly 1 week to complete this far. No problems encountered so far.
+	\item \textbf{Rotate Cube} implemented, testing included. This function is completed, the only thing left is bug testing. Coded by Ben. Took roughly 5 days to complete at this point, including testing. Bug testing on this method currently consists of one unit test. One of the problems that we encountered was finding out how to rotate a face clockwise and counterclockwise, as that would invariably affect other faces on the cube in unforeseen ways. This was solved by implementing a special face function called rotateFace which could be rotate clockwise or counterclockwise as the cube engine desired.
+	\item \textbf{Scramble Cube} not implemented, no testing. No work has been done on this yet. No problems have been encountered yet as there is no work done on it. Jesse/Phillip are working on this.
+	\item \textbf{Switch Page} implemented, no testing. Buttons to switch to different pages still needs to be cleaned up. Coded by Ben /Nickoli. Problems encountered: button resizing in the dynamic layout is not optimal, text size is not matching the button size. These problems are still unsolved and must be fixed.
+	\item \textbf{Generate Letters} not implemented, no testing. The only work that has been done on this is the client-side webpage has the input field and submission button, but no operating back-end code yet. Coded by Ben/Nickoli.
+	\item \textbf{Check solution} not implemented, no testing. No work has been done on this yet. No problems have been encountered yet as there is no work done on it. Jesse/Phillip are working on this.
+	\item \textbf{Reset Cube} implemented, no testing. Coded by Ben. Took 1 day to complete. This function is completed, only thing left is bug testing. There were no problems in implementing this method.
+	\item \textbf{Main Page Redirect} not implemented, no testing. Although the client-side interface has been implemented, no link redirect has been added to the website yet.
+	\item \textbf{Clear input bar} implemented, no testing. This is a client-side feature, so testing on this user story will be very limited. Coded by Ben. Took roughly 1 day to complete so far. No problems in implementing this feature.
+	\item \textbf{404 Content} implemented, no testing. This is a client-side feature, so testing on this user story will be very limited, and will be on a personal basis (testing manually by testing different pages). Coded by Ben. Took roughly 1 day to complete so far. There was an issue with 404 errors being sent for content that the user did not have permission to, this was fixed by using chmod commands on all content inside the public folder. No issues at the present moment.
+\end{enumerate}
+	
+
+\section{Design Changes and Rationale}
+
+\par Fortunately, we have the opportunity to work very closely with our customer*, who oversees development in an advisory capacity. This allows for very strong communication of needs from the customer and reporting from the developers with regards to the requirements for the project. In broad strokes, our customer has approved resoundingly of the layout of our webpage and proposed cube UI. However, given the rigors of integrating the various components (details to be discussed later) and approaching deadlines, there may have to be some corner cutting in the form of simplifying the application and its functionality. \\
+
+\par The development of the core cube engine is in the process of being implemented in C++. This is because development began on this part of the application before any other javascript had been written, and javascript is a pain to work with without a server or other infrastructure in place already. At this point in the application development process, continuing to implement in C++ would be unnecessary and would make subsequent tasks bigger, such as transforming the C++ code into javascript (and merging it with the existing javascript cube code we have). This is a task that was left off all of our planning documents up until now, as it was not anticipated as a task too long back in this process. \\
+
+\par Given the rigor of our backend developers’ work- and school schedules, we are running a little bit behind schedule in the development of the cube engine. Couple this with the aforementioned need to transfer the existing C++ code to javascript, there needs to be a change to our schedule and expectations for the project. As far as getting the cube engine up and running and able to be tested thoroughly, we will have one or a few of the front end guys take time getting that cube working (this has already begun). \\
+
+\par In a way, these developments have affirmed a decision that we, as a group, made very early on in our planning process, that being the decision to keep our expectations limited to something we knew we could get done and block off a few weeks for growth, time permitting. Since we knew we were all busy people with jobs, full schedules, and commutes, we foresaw the time crunch at the end, hence the preemptive measures. That is not to saw that we did not aspire to hit every benchmark that we set in this whole process, because we surely did; rather, we geared our approach towards safely having a solid product rather than dangerously having a  spectacular product. I am not sure how well this orientation towards product development transfers into the industry, but I find the lesson regarding planning with realistic (rather than idealistic) expectations in mind is important. As such, it will likely be the plan of this group to cut the iOS migration portion of the project and focus on getting our existing application performing (and looking) perfectly, and practicing the software engineering skills associated with these tasks. \\
+
+\par \textbf{*Note}: If it were not clear at this point, our “customer” is our very own Keenan. As it happens, Keenan is the only qualified customer that any of us know for a project such as this one, as he is actually a blindfolded cuber, so he knows what the application should look like and which actions it should perform; he is the man with the vision. As such, the communication between customer and developer is less of a rhetorical dialog and more of a socratic discussion. \\
+
+\section{Meeting Report}
+
+\par This week is week eight. On this week we have met three times on campus. Including three times in library and one meeting after class. Our customer has met us in three meetings. We think his requirements are reasonable for this project. We basically implement his requirements in our project. \\
+
+\par Our first meeting is on Tuesday after class. We met in the library this time. On this meeting, we have looked through whole assignment requirement after the assignment come out. Then, we started to divide this assignment into five pieces. Every group member will work on one part. Benjamin Martin is working on test section, Jesse Chick is working on design changes and rationale. Jiaji Sun is working on meeting report. Keenan Johnson is working on product release. Since we are close to the dead week, we decided to try to finish this assignment as soon as possible. Because everyone has so many assignments to do, and some of them are very difficult to finish. Due to this issue, we decided we will just meet everyone three times this week. However, we will keep track our assignment process by texting each other. After we decided our plan for this week, we started to work on product release and user story. Our product will release on GitHub, it’s the best place to release our project. For user stories part, we will keep working on our user stories from last assignment. At the end of this meeting, we will have a second meeting on Thursday class time. Because we don’t have class on Thursday. \\
+
+\par Our second meeting is on Thursday, during our class time. We met in the library again. On this meeting, we started to discuss the third part of this assignment, which is design changes and rationale. This part is the most complex part of this assignment. Since our customer showed up at our meeting every time. We have asked him a few questions and introduced the new design of this project. The customer is satisfied our new design and answered our questions. \\
+
+\par Our last meeting is on Friday. We met in the library. On this meeting, our major topic is to finish rest of this assignment, which is testing. This part is the most difficult part of this assignment. The reason is we have to write some codes to create module testing. We are not only writing some codes for the testing module but also make those codes are working for our module. We have discussed a series of possible problems with our codes. However, our project is a unique project, which means there is no similar example online. We have to create our code by ourselves. This is a big challenge for us. Jesse wrote testing codes, and we use those codes to test our project modules. We got lots of issues at the beginning, such as the output of the testing code is not right. We have adjusted our codes many times. Therefore, we keep changing our code in two hours. We finally make testing codes working correctly at the end. Then we started to use those codes to test our project module. We spend another three hours to make testing codes working on our project. After five hours working, we finally finished this part at the end. \\
+
+\par Our plan for next week keeps working on our project and try to find any bugs in our project. The new schedule for next week will be we are trying to finish these user stories:“ View tutorials”, “Rotate Cube”, “Scramble Cube”, “Switch Page” and “Generate Letters”. We are planning to be done these user stories in five weekdays. Then we will use two days weekend to testing each story. \\
+
+
+
+\end{document}
