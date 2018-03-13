@@ -1,6 +1,6 @@
 # this is a comment
 
-TARGET=the_memo-FIS
+TARGET=the_memo-SIS
 
 
 default: pdf
